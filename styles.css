@@ -1,0 +1,33 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+
+.calculator{
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    background-color: black;
+
+}
+
+.result{
+    border:1px solid white;
+    height: 60px;
+    text-align: end;
+    font-size: 50px;
+    margin-bottom: 10px;
+    color: greenyellow;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: column;
+}
+
+.btn{
+    font-size: 30px;
+    font-weight: 900;
+    margin: 3px;
+    padding:20px; 
+}
