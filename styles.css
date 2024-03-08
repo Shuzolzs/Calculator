@@ -26,13 +26,19 @@ body{
     flex-direction: column;
 }
 
-.btn{
+.btn,.func{
     font-size: 30px;
     font-weight: 900;
     margin: 3px;
     height: 70px;
     width: 70px;
+    background-color: rgb(192, 192, 192);
 }
- #b0{
+
+#b0{
     width: 151px;
- }
+}
+
+.func{
+    background-color: rgb(233, 151, 0);
+}

@@ -17,6 +17,19 @@ function percentage(num){
     return(num/100);
 }
 
-if (document.querySelector('.result').innerHTML===''){
+const result=document.querySelector('.result');
+result.textContent='0.';
 
+if (result.innerHTML==='0.'){
+    let str='';
+    const n1=document.querySelectorAll('.btn');
+    n1.forEach((n)=>{
+        n.addEventListener('click',()=>{
+            str+=n.textContent;
+            console.log(str);
+            result.textContent=str;
+        });
+        
+    });
+    
 }
