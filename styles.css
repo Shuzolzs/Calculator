@@ -1,4 +1,17 @@
 body{
+    text-align: center;
+}
+
+h1{
+    color: antiquewhite;
+    background-color: rgb(35, 35, 35);
+    padding:20px;
+    margin-bottom:100px ;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 50px;
+}
+
+.wrapper{
     display: flex;
     justify-content: center;
 }
@@ -39,6 +52,6 @@ body{
     width: 151px;
 }
 
-.func{
+.func, #percent{
     background-color: rgb(233, 151, 0);
 }
